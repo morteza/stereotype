@@ -7,7 +7,7 @@ It is a work in progress.
 
 # Author
 
-- Morteza Ansarinia ([Github Profile](http://github.com/morteza)).
+- Morteza Ansarinia ([GitHub Profile](http://github.com/morteza)).
 
 # References
 
