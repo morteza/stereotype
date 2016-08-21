@@ -1,7 +1,7 @@
 # Stereotype Content Model - A Survey Tool
 
 This app provides a survey application to measure competence and warmth as universal trait dimensions of interpersonal and intergroup perception: *The Stereotype Content Model (Fiske, 2012)*.
-It presents children with some facial expression in context to be rated according to the content model. Final results will be used to study perception of fairness, trust, and other social criteria.
+It presents children with facial expressions and bodily postures in particular contexts, to be rated according to the content model. Final results will be used to study perception of fairness, trust, and other social criteria.
 
 It is a work in progress.
 
