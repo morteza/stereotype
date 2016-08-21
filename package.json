@@ -1,0 +1,39 @@
+{
+  "name": "social.cut.stereotype",
+  "version": "1.0.0",
+  "description": "Competence and warmth as universal trait dimensions of interpersonal and intergroup perception: The Stereotype Content Model and the BIAS Map.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morteza/stereotype.git"
+  },
+  "keywords": [
+    "stereotype",
+    "competence",
+    "wamth",
+    "model",
+    "social",
+    "psychology",
+    "social",
+    "cognition",
+    "survey"
+  ],
+  "author": "Morteza Ansarinia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morteza/stereotype/issues"
+  },
+  "homepage": "https://github.com/morteza/stereotype",
+  "devDependencies": {
+    "electron": "^1.3.3",
+    "electron-packager": "^7.7.0",
+    "react": "^15.3.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1"
+  }
+}
