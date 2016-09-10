@@ -1,4 +1,4 @@
-var React = require("react");
+'use strict';
 
 /** A survey, includes several questions (likerts for now) */
 var Survey = React.createClass({
@@ -11,8 +11,9 @@ var Survey = React.createClass({
 
   render: function() {
     return (
-      <div className="">
-        Survey!
+      <div className="survey">
+        <SurveyQuestions />
+        <SurveyImage />
       </div>
     );
   }

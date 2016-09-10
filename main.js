@@ -1,5 +1,7 @@
 const electron = require('electron');
 var React = require('react');
+var React = require('react-dom');
+
 // Module to control application life.
 const app = electron.app;
 // Module to create native browser window.
@@ -17,7 +19,8 @@ function createWindow () {
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 
   // Open the DevTools.
-  //mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools();
+  //mainWindow.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -28,7 +31,7 @@ function createWindow () {
   })
 }
 
-app.on('ready', createWindow)
+app.on('ready', createWindow);
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function () {
